@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: #4f5665;
+    --second-text-color: #0b132a;
+    --main-color: #f53838;
+}
+.continer{
+    width: 1280px;
+    margin: autoa;
+}
+
+button {
+    transition: 0.2s all;
+    cursor: pointer;
+}
