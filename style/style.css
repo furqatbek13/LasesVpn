@@ -224,4 +224,91 @@ header .head_nav button:nth-child(2):hover {
   border-radius: 50%;
   color: #fff;
   margin-right: 10px;
+}
+
+.section-4 {
+  width: 100%;
+  height: 100%;
+  padding: 150px 0px;
+}
+.section-4 .choose_plans_descriptons {
+  text-align: center;
+}
+.section-4 .choose_plans_descriptons h1 {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  color: var(--second-text-color);
+  padding-bottom: 20px;
+}
+.section-4 .choose_plans_descriptons p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+  padding-bottom: 60px;
+}
+.section-4 .choose_plans_box {
+  width: 330px;
+  height: 860px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  text-align: center;
+  padding: 80px 90px;
+}
+.section-4 .choose_plans_box img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+.section-4 .choose_plans_box .choose_plans_box_text {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section-4 .choose_plans_box .choose_plans_box_text img {
+  display: flex;
+  align-items: center;
+}
+
+.huge-global_vpn {
+  padding: 150px 0px;
+  width: 100%;
+}
+.huge-global_vpn h1 {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  color: rgb(11, 19, 42);
+  padding-bottom: 20px;
+}
+.huge-global_vpn p {
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+.huge-global_vpn p span {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.maps {
+  text-align: center;
+  padding: 0px 100px;
+}
+.maps .maps_imgs {
+  width: 1060px;
+  height: 537.77px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
