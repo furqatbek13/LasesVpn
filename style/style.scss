@@ -15,6 +15,12 @@
 
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
 .continer {
     width: 1280px;
     margin: auto;
@@ -27,7 +33,8 @@ button {
 
 header {
     width: 100%;
-    height: 90px;
+    height: 120px;
+    background-color: white;
     position: sticky;
     top: 0;
     padding-top: 20px;
@@ -91,7 +98,7 @@ header {
 
 .section-1 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 
     .lases_vpn {
         display: flex;
@@ -99,7 +106,7 @@ header {
     }
 
     .lases_descriptions {
-        
+
         h1 {
             font-family: Rubik;
             font-size: 50px;
@@ -160,6 +167,97 @@ header {
             color: rgba(245, 56, 56, 1);
             background-color: transparent;
             border: 1px solid rgba(245, 56, 56, 1);
+        }
+    }
+}
+
+.section-2 {
+    width: 1140px;
+    height: 200px;
+    // background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    margin-bottom: 250px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    .info_lases_vpn {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .info_lases_vpn_user {
+
+        h4 {
+            font-family: Rubik;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: left;
+            color: var(--h1color);
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-family: Rubik;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: rgba(79, 86, 101, 1);
+        }
+    }
+}
+
+.section-3 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 170px;
+
+        .features-about {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+
+            h1 {
+                font-size: 3rem;
+                font-weight: 500;
+                color: var(--second-text-color);
+            }
+
+            p {
+                color: var(--text-color);
+            }
+
+            ul {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+
+                li {
+                    color: var(--text-color);
+
+                    i {
+                        padding: 10px 12px;
+                        background: rgb(0, 255, 123);
+                        border-radius: 50%;
+                        color: #fff;
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
     }
 }

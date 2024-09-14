@@ -14,6 +14,12 @@
   --h1color: rgba(11, 19, 42, 1);
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
 .continer {
   width: 1280px;
   margin: auto;
@@ -26,7 +32,8 @@ button {
 
 header {
   width: 100%;
-  height: 90px;
+  height: 120px;
+  background-color: white;
   position: sticky;
   top: 0;
   padding-top: 20px;
@@ -82,7 +89,7 @@ header .head_nav button:nth-child(2):hover {
 
 .section-1 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .section-1 .lases_vpn {
   display: flex;
@@ -141,4 +148,80 @@ header .head_nav button:nth-child(2):hover {
   color: rgb(245, 56, 56);
   background-color: transparent;
   border: 1px solid rgb(245, 56, 56);
+}
+
+.section-2 {
+  width: 1140px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  margin-bottom: 250px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.section-2 .info_lases_vpn {
+  display: flex;
+  justify-content: space-between;
+}
+.section-2 .info_lases_vpn_user h4 {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: var(--h1color);
+  padding-bottom: 5px;
+}
+.section-2 .info_lases_vpn_user p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(79, 86, 101);
+}
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+}
+.section-3 .features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 170px;
+}
+.section-3 .features .features-about {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-3 .features .features-about h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--second-text-color);
+}
+.section-3 .features .features-about p {
+  color: var(--text-color);
+}
+.section-3 .features .features-about ul {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-3 .features .features-about ul li {
+  color: var(--text-color);
+}
+.section-3 .features .features-about ul li i {
+  padding: 10px 12px;
+  background: rgb(0, 255, 123);
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
