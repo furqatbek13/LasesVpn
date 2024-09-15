@@ -311,4 +311,79 @@ header .head_nav button:nth-child(2):hover {
   width: 1060px;
   height: 537.77px;
   text-align: center;
+}
+
+.section-5 {
+  padding: 100px 0px;
+}
+.section-5 .customer_descriptions {
+  text-align: center;
+  padding: 50px 400px;
+}
+.section-5 .customer_descriptions h1 {
+  height: 100px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  color: rgb(11, 19, 42);
+  margin-bottom: 20px;
+}
+.section-5 .customer_descriptions p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  width: 555px;
+  height: 60px;
+  color: rgb(79, 86, 101);
+}
+.section-5 .cards_parents {
+  display: flex;
+  justify-content: space-between;
+}
+.section-5 .cards_parents .cards {
+  width: 400px;
+  height: 230px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.section-5 .cards_parents .cards .cards_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-5 .cards_parents .cards .cards_text .info_text {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+.section-5 .cards_parents .cards .cards_text .cards_price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.section-5 .cards_parents .cards .cards_text .cards_bottom {
+  width: 340px;
+  height: 100px;
+  top: 4194.25px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(11, 19, 42);
+}
+.section-5 .cards_parents .cards:hover {
+  border: 2px solid rgb(245, 56, 56);
+  transition: all 0.5s linear;
 }/*# sourceMappingURL=style.css.map */

@@ -266,7 +266,7 @@ header {
     width: 100%;
     height: 100%;
     padding: 150px 0px;
-    
+
 
     .choose_plans_descriptons {
         text-align: center;
@@ -299,15 +299,18 @@ header {
         border: 2px solid grey;
         text-align: center;
         padding: 80px 90px;
-        img{
+
+        img {
             width: 150px;
             margin-bottom: 30px;
         }
-        .choose_plans_box_text{
+
+        .choose_plans_box_text {
             display: flex;
             align-items: center;
             gap: 50px;
-            img{
+
+            img {
                 // width: 870px;
                 display: flex;
                 align-items: center;
@@ -316,10 +319,12 @@ header {
 
     }
 }
+
 .huge-global_vpn {
     padding: 150px 0px;
     width: 100%;
-    h1{
+
+    h1 {
         font-family: Rubik;
         font-size: 35px;
         font-weight: 500;
@@ -328,30 +333,121 @@ header {
         color: rgba(11, 19, 42, 1);
         padding-bottom: 20px;
     }
-    p{
+
+    p {
         text-align: center;
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
         line-height: 30px;
         color: rgba(79, 86, 101, 1);
-        span{
+
+        span {
             font-family: Rubik;
             font-size: 16px;
             font-weight: 500;
             line-height: 30px;
             text-align: center;
         }
-        
+
     }
-  
-  }
-  .maps {
+
+}
+
+.maps {
     text-align: center;
     padding: 0px 100px;
-    .maps_imgs{
+
+    .maps_imgs {
         width: 1060px;
         height: 537.77px;
         text-align: center;
     }
-  }
+}
+
+.section-5 {
+    padding: 100px 0px;
+
+    .customer_descriptions {
+        text-align: center;
+        padding: 50px 400px;
+
+        h1 {
+            height: 100px;
+            font-family: Rubik;
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 50px;
+            text-align: center;
+            color: rgba(11, 19, 42, 1);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+            width: 555px;
+            height: 60px;
+            color: rgba(79, 86, 101, 1);
+        }
+    }
+
+    .cards_parents {
+        display: flex;
+        justify-content: space-between;
+
+        .cards {
+            width: 400px;
+            height: 230px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 1);
+            padding: 30px;
+            margin-bottom: 50px;
+            cursor: pointer;
+            border: 2px solid transparent;
+
+            .cards_text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                .info_text {
+                    display: flex;
+                    padding-bottom: 20px;
+                    gap: 20px;
+                }
+
+                .cards_price {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+
+                .cards_bottom {
+                    width: 340px;
+                    height: 100px;
+                    top: 4194.25px;
+                    left: 180px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    text-align: left;
+                    color: rgba(11, 19, 42, 1);
+                }
+            }
+        }
+
+        .cards:hover {
+            border: 2px solid rgba(245, 56, 56, 1);
+            transition: all 0.5s linear;
+        }
+    }
+
+}
