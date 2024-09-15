@@ -451,3 +451,60 @@ header {
     }
 
 }
+.section-6{
+    padding: 100px 0px;
+    .subscribe_div {
+        width: 1140px;
+        height: 233px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 12px 49px 8px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 12px 49px 8px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 12px 49px 8px rgba(34, 60, 80, 0.2);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 70px;
+        h1:first-child{
+            width: 371.61px;
+            height: 80px;
+            font-family: Rubik;
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 45px;
+            text-align: left;
+            color: rgba(11, 19, 42, 1);
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: rgba(79, 86, 101, 1);
+        }
+        .subscribe_btn button {
+            width: 250px;
+            height: 60px;
+            border-radius: 10px;
+            -webkit-box-shadow: 3px 26px 48px 18px rgba(234, 60, 29, 0.2);
+            -moz-box-shadow: 3px 26px 48px 18px rgba(234, 60, 29, 0.2);
+            box-shadow: 3px 26px 48px 18px rgba(234, 60, 29, 0.2);
+            background-color: rgba(245, 56, 56, 1);
+            border: 1px solid transparent;
+            cursor: pointer;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            color: rgba(255, 255, 255, 1);
+          }
+          .subscribe_btn button:hover {
+            background-color: transparent;
+            color: crimson;
+            border: 1px solid red;
+            transition: all 0.3s linear;
+          }
+      } 
+}

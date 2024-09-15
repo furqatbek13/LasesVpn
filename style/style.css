@@ -386,4 +386,58 @@ header .head_nav button:nth-child(2):hover {
 .section-5 .cards_parents .cards:hover {
   border: 2px solid rgb(245, 56, 56);
   transition: all 0.5s linear;
+}
+
+.section-6 {
+  padding: 100px 0px;
+}
+.section-6 .subscribe_div {
+  width: 1140px;
+  height: 233px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 12px 49px 8px rgba(34, 60, 80, 0.2);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 70px;
+}
+.section-6 .subscribe_div h1:first-child {
+  width: 371.61px;
+  height: 80px;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  color: rgb(11, 19, 42);
+  margin-bottom: 20px;
+}
+.section-6 .subscribe_div p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(79, 86, 101);
+}
+.section-6 .subscribe_div .subscribe_btn button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 3px 26px 48px 18px rgba(234, 60, 29, 0.2);
+  background-color: rgb(245, 56, 56);
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+.section-6 .subscribe_div .subscribe_btn button:hover {
+  background-color: transparent;
+  color: crimson;
+  border: 1px solid red;
+  transition: all 0.3s linear;
 }/*# sourceMappingURL=style.css.map */
