@@ -229,7 +229,7 @@ header .head_nav button:nth-child(2):hover {
 .section-4 {
   width: 100%;
   height: 100%;
-  padding: 150px 0px;
+  padding: 0px 0px;
 }
 .section-4 .choose_plans_descriptons {
   text-align: center;
@@ -309,12 +309,11 @@ header .head_nav button:nth-child(2):hover {
 }
 .maps .maps_imgs {
   width: 1060px;
-  height: 537.77px;
   text-align: center;
 }
 
 .section-5 {
-  padding: 100px 0px;
+  padding: 150px 0px;
 }
 .section-5 .customer_descriptions {
   text-align: center;
@@ -440,4 +439,73 @@ header .head_nav button:nth-child(2):hover {
   color: crimson;
   border: 1px solid red;
   transition: all 0.3s linear;
+}
+
+footer .footer_div {
+  width: 100%;
+  height: 563.12px;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_div .laslesvpn_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+footer .footer_div .laslesvpn_div p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.7px;
+  color: rgb(11, 19, 42);
+}
+footer .footer_div .footer_left p {
+  width: 340px;
+  height: 61.57px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(114, 114, 114);
+  margin-bottom: 30px;
+}
+footer .footer_div .footer_left p span {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(77, 77, 77);
+}
+footer .footer_div .footer_left p:nth-child(4) {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(175, 181, 192);
+}
+footer .ul {
+  list-style: none;
+  color: rgb(11, 19, 42);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer li {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+footer h2 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(11, 19, 42);
 }/*# sourceMappingURL=style.css.map */
