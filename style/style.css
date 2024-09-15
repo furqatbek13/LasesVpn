@@ -226,15 +226,17 @@ header .head_nav button:nth-child(2):hover {
   margin-right: 10px;
 }
 
-.section-4 {
-  width: 100%;
-  height: 100%;
-  padding: 0px 0px;
-}
-.section-4 .choose_plans_descriptons {
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+  padding: 20px 100px;
+  max-width: 1480px;
+  gap: 30px;
 }
-.section-4 .choose_plans_descriptons h1 {
+.pricing .pricing-header h1 {
   font-family: Rubik;
   font-size: 35px;
   font-weight: 500;
@@ -243,35 +245,76 @@ header .head_nav button:nth-child(2):hover {
   color: var(--second-text-color);
   padding-bottom: 20px;
 }
-.section-4 .choose_plans_descriptons p {
+.pricing .pricing-header p {
   font-family: Rubik;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+  width: 555px;
   color: var(--text-color);
   padding-bottom: 60px;
 }
-.section-4 .choose_plans_box {
-  width: 330px;
-  height: 860px;
+.pricing .pricing-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.pricing .pricing-card-header ul {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.pricing .pricing-card-header ul li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pricing .pricing-card-header ul li i {
+  padding: 10px 15px;
+  color: rgb(0, 255, 145);
+}
+.pricing .pricing-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pricing .pricing-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 40px;
+  height: 760px;
+  border: 2px solid #dde0e4;
   border-radius: 10px;
-  border: 2px solid grey;
-  text-align: center;
-  padding: 80px 90px;
+  padding: 30px;
+  cursor: pointer;
 }
-.section-4 .choose_plans_box img {
-  width: 150px;
-  margin-bottom: 30px;
-}
-.section-4 .choose_plans_box .choose_plans_box_text {
+.pricing .pricing-card .pricing-card-footer {
   display: flex;
   align-items: center;
-  gap: 50px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
-.section-4 .choose_plans_box .choose_plans_box_text img {
-  display: flex;
-  align-items: center;
+.pricing .pricing-card .pricing-card-footer button {
+  padding: 10px 60px;
+  border: 2px solid var(--main-color);
+  border-radius: 30px;
+  background: transparent;
+}
+.pricing .pricing-card .pricing-card-footer button:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+.pricing img {
+  width: 250px;
 }
 
 .huge-global_vpn {
